@@ -3,7 +3,7 @@ var TruffleError = require("truffle-error");
 var expect = require("truffle-expect");
 var Resolver = require("truffle-resolver");
 var Artifactor = require("truffle-artifactor");
-var TestRPC = require("ganache-cli");
+var Ganache = require("ganache-core");
 
 var Environment = {
   // It's important config is a Config object and not a vanilla object
@@ -110,7 +110,7 @@ var Environment = {
 
       config.networks[forkedNetwork] = {
         network_id: config.network_id,
-        provider: TestRPC.provider({
+        provider: Ganache.provider({
           fork: config.provider,
           unlocked_accounts: accounts,
           gasLimit: block.gasLimit
