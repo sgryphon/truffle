@@ -770,9 +770,9 @@
   integrity sha512-vfzZGgZKRFy7KEWcBGfIFk+h6B+thDCLfkD1exMBMRlUsx2icA+J6y4kAbZs/TjSTeY1duw89QUU133TSzr60Q==
 
 "@types/web3@^1.0.5":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@types/web3/-/web3-1.0.14.tgz#709b700b3eecf7fe9fb09771c4bf484add89912a"
-  integrity sha512-N841xEBVwg0QNin3Zu+Yf7eEKKeJ0MROMc+FvfgtX8r/fwynFhSZVj3VONVcr9QP/Wffq+aggj+4lgrvG3lnFQ==
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@types/web3/-/web3-1.0.12.tgz#dd7867ca24040b89577a20b7b07ad662de49c2c0"
+  integrity sha512-CZDwP4Opy2BjWfux+o05DXG0SSIyj7BQt7kYR+M8a8f/wTjJgre1JEECYUQ8Yu9NQg4yX4g7BjW2/Bd1KbZHOg==
   dependencies:
     "@types/bn.js" "*"
     "@types/underscore" "*"
@@ -9367,9 +9367,9 @@ minipass@^2.2.1, minipass@^2.3.4, minipass@^2.3.5:
     yallist "^3.0.0"
 
 minizlib@^1.1.1:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-1.2.0.tgz#59517387478fd98d8017ed0299c6cb16cbd12da3"
-  integrity sha512-vQhkoouK/oKRVuFJynustmW3wrqZEXOrfbVVirvOVeglH4TNvIkcqiyojlIbbZYYDJZSbEKEXmDudg+tyRkm6g==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-1.2.1.tgz#dd27ea6136243c7c880684e8672bb3a45fd9b614"
+  integrity sha512-7+4oTUOWKg7AuL3vloEWekXY2/D20cevzsrNT2kGWm+39J9hGTCBv8VI5Pm5lXZ/o3/mdR4f8rflAPhnQb8mPA==
   dependencies:
     minipass "^2.2.1"
 
@@ -11440,7 +11440,7 @@ redux-cli-logger@^2.0.1:
   dependencies:
     colors "^1.1.2"
 
-redux-devtools-instrument@^1.9.0:
+redux-devtools-instrument@^1.9.3:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/redux-devtools-instrument/-/redux-devtools-instrument-1.9.3.tgz#37b229f3a64a404d7d2c43489ef91cae8f712a4b"
   integrity sha512-rt1pcRlu6QMTyvQdCDFm+5FGNfI3NdGVL/rKxBuTHbnn+y3x3x6zzh/ssAQmr2WqogTDG4Ero1tzfqANkaWhHg==
@@ -11541,16 +11541,16 @@ release-zalgo@^1.0.0:
     es6-error "^4.0.1"
 
 remote-redux-devtools@^0.5.12:
-  version "0.5.13"
-  resolved "https://registry.yarnpkg.com/remote-redux-devtools/-/remote-redux-devtools-0.5.13.tgz#6bcb1ecfbb0a9c3e75f477882a04d2f197f81e2c"
-  integrity sha512-daDtwkoUEQ9qw4ciFEu0JZzB2NxKHSBrdVSRvrhi9wbwLI4ADiIctsXvkIOwrj0hxcSjDSOzp1WLlv7AJYp++g==
+  version "0.5.14"
+  resolved "https://registry.yarnpkg.com/remote-redux-devtools/-/remote-redux-devtools-0.5.14.tgz#a03e86dc94140fec595cf792f8e6a60b6b5a27ff"
+  integrity sha512-zQxagkyEddSzQ5AC/wkm776+J/v3sZuf6KepFUWej8nOWtsYLXGh7wFHuOCgHL6yhIWmskhCpV11VrV7wsxLmg==
   dependencies:
-    jsan "^3.1.5"
+    jsan "^3.1.13"
     querystring "^0.2.0"
-    redux-devtools-instrument "^1.9.0"
+    redux-devtools-instrument "^1.9.3"
     remotedev-utils "^0.1.1"
-    rn-host-detect "^1.0.1"
-    socketcluster-client "^13.0.0"
+    rn-host-detect "^1.1.5"
+    socketcluster-client "^14.2.1"
 
 remotedev-serialize@^0.1.0:
   version "0.1.6"
@@ -11839,7 +11839,7 @@ rlp@^2.0.0:
   dependencies:
     safe-buffer "^5.1.1"
 
-rn-host-detect@^1.0.1:
+rn-host-detect@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/rn-host-detect/-/rn-host-detect-1.1.5.tgz#fbecb982b73932f34529e97932b9a63e58d8deb6"
   integrity sha512-ufk2dFT3QeP9HyZ/xTuMtW27KnFy815CYitJMqQm+pgG3ZAtHBsrU8nXizNKkqXGy3bQmhEoloVbrfbvMJMqkg==
@@ -12020,7 +12020,7 @@ sc-channel@~1.1.0:
   dependencies:
     component-emitter "1.2.1"
 
-sc-errors@^1.4.0:
+sc-errors@^1.4.0, sc-errors@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/sc-errors/-/sc-errors-1.4.1.tgz#53e80030fe647e133d73b51eaa7d2b0f7591fd5b"
   integrity sha512-dBn92iIonpChTxYLgKkIT/PCApvmYT6EPIbRvbQKTgY6tbEbIy8XVUv4pGyKwEK4nCmvX4TKXcN0iXC6tNW6rQ==
@@ -12498,10 +12498,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-socketcluster-client@^13.0.0:
-  version "13.0.1"
-  resolved "https://registry.yarnpkg.com/socketcluster-client/-/socketcluster-client-13.0.1.tgz#920e0a2437c228555e84f8ef0c9c5eb720e6067e"
-  integrity sha512-hxiE2xz6mgaBlhXbtBa4POgWVEvIcjCoHzf5LTUVhI9IL8V2ltV3Ze8pQsi9egqTjSz4RHPfyrJ7BiETe5Kthw==
+socketcluster-client@^14.2.1:
+  version "14.2.1"
+  resolved "https://registry.yarnpkg.com/socketcluster-client/-/socketcluster-client-14.2.1.tgz#f5cc896fb713006deb2aea6727440c2bff5d43cb"
+  integrity sha512-peCBfewW1silqvLecFpLz5u2xr85r8b7A24mXaNTsXLnG9QR3zxecYtKS/odszzJSu2j2YyQPR4avy77tZSjZw==
   dependencies:
     base-64 "0.1.0"
     clone "2.1.1"
@@ -12509,7 +12509,7 @@ socketcluster-client@^13.0.0:
     linked-list "0.1.0"
     querystring "0.2.0"
     sc-channel "^1.2.0"
-    sc-errors "^1.4.0"
+    sc-errors "^1.4.1"
     sc-formatter "^3.0.1"
     uuid "3.2.1"
     ws "5.1.1"
@@ -14474,9 +14474,10 @@ web3-net@1.0.0-beta.36:
     web3-core-method "1.0.0-beta.36"
     web3-utils "1.0.0-beta.36"
 
-web3-provider-engine@14.0.6, "web3-provider-engine@git+https://github.com/cgewecke/provider-engine.git#web3-one":
+web3-provider-engine@14.0.6:
   version "14.0.6"
-  resolved "git+https://github.com/cgewecke/provider-engine.git#be7d1e895918eb05c7893fc00a7053fe4abb4233"
+  resolved "https://registry.yarnpkg.com/web3-provider-engine/-/web3-provider-engine-14.0.6.tgz#cbdd66fe20c0136a3a495cbe40d18b6c4160d5f0"
+  integrity sha512-tr5cGSyxfSC/JqiUpBlJtfZpwQf1yAA8L/zy1C6fDFm0ntR974pobJ4v4676atpZne4Ze5VFy3kPPahHe9gQiQ==
   dependencies:
     async "^2.5.0"
     backoff "^2.5.0"
@@ -14493,7 +14494,7 @@ web3-provider-engine@14.0.6, "web3-provider-engine@git+https://github.com/cgewec
     json-stable-stringify "^1.0.1"
     promise-to-callback "^1.0.0"
     readable-stream "^2.2.9"
-    request "^2.85.0"
+    request "^2.67.0"
     semaphore "^1.0.3"
     tape "^4.4.0"
     ws "^5.1.1"
@@ -14548,6 +14549,32 @@ web3-provider-engine@^13.3.2:
     semaphore "^1.0.3"
     solc "^0.4.2"
     tape "^4.4.0"
+    xhr "^2.2.0"
+    xtend "^4.0.1"
+
+"web3-provider-engine@git+https://github.com/cgewecke/provider-engine.git#web3-one":
+  version "14.0.6"
+  resolved "git+https://github.com/cgewecke/provider-engine.git#be7d1e895918eb05c7893fc00a7053fe4abb4233"
+  dependencies:
+    async "^2.5.0"
+    backoff "^2.5.0"
+    clone "^2.0.0"
+    cross-fetch "^2.1.0"
+    eth-block-tracker "^3.0.0"
+    eth-json-rpc-infura "^3.1.0"
+    eth-sig-util "^1.4.2"
+    ethereumjs-block "^1.2.2"
+    ethereumjs-tx "^1.2.0"
+    ethereumjs-util "^5.1.5"
+    ethereumjs-vm "^2.3.4"
+    json-rpc-error "^2.0.0"
+    json-stable-stringify "^1.0.1"
+    promise-to-callback "^1.0.0"
+    readable-stream "^2.2.9"
+    request "^2.85.0"
+    semaphore "^1.0.3"
+    tape "^4.4.0"
+    ws "^5.1.1"
     xhr "^2.2.0"
     xtend "^4.0.1"
 
