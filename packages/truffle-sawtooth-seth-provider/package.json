@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "debug": "^4.0.1",
-    "web3-provider-engine": "14.0.6"
+    "web3-provider-engine": "14.2.1"
   },
   "gitHead": "f9f25a2d491394ac3df1bab56f9c743d871a1059"
 }
